@@ -1,8 +1,3 @@
-# course_project
-course project for getting and cleaning data coursera
-
-
-
 ---
 title: "README"
 author: "Damion Rosbrugh"

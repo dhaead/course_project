@@ -11,11 +11,11 @@ output: html_document
 - column  |   variable name   |   description
 - ------- | ----------------- | -------------
 
-- 1, Subject,                 Subject Id 
-- 2, Activity,                Activity performed by each subject  
-- 3, tBodyAcc.mean X,           Time variable for the mean body accelerometer on the x axis 
-- 4, tBodyAcc.mean Y,           Time variable for the mean body accelerometer on the y axis
-- 5, tBodyAcc.mean Z,           Time variable for the mean body accelerometer on the z axis
+- 1, Subject,                   Subject Id 
+- 2, Activity,                  Activity performed by each subject  
+- 3, tBodyAcc.mean X,          Time variable for the mean body accelerometer on the x axis 
+- 4, tBodyAcc.mean Y,          Time variable for the mean body accelerometer on the y axis
+- 5, tBodyAcc.mean Z,          Time variable for the mean body accelerometer on the z axis
 - 6, tGravityAcc.mean X,        Time variable for the mean gravity accelerometer on the x axis
 - 7, tGravityAcc.mean Y,        Time variable for the mean gravity accelerometer on the y axis
 - 8, tGravityAcc.mean Z,        Time variable for the mean gravity accelerometer on the z axis
@@ -42,56 +42,56 @@ output: html_document
 - 29, fBodyAccJerk.mean X,      Fourier transform of the time variable for the  mean body accelerometer jerk x axis
 - 30, fBodyAccJerk.mean Y,      Fourier transform of the time variable for the  mean body accelerometer jerk y axis
 - 31, fBodyAccJerk.mean Z,      Fourier transform of the time variable for the  mean body accelerometer jerk z axis
-- 32, fBodyAccJerk.meanFreq X, 
-- 33, fBodyAccJerk.meanFreq Y,
-- 34, fBodyAccJerk.meanFreq Z,
-- 35, fBodyGyro.mean X,
-- 36, fBodyGyro.mean Y,
-- 37, fBodyGyro.mean Z,
-- 38, fBodyGyro.meanFreq X, 
-- 39, fBodyGyro.meanFreq Y,
-- 40, fBodyGyro.meanFreq Z,
-- 41, fBodyAccMag.mean,
-- 42, fBodyAccMag.meanFreq,
-- 43, fBodyBodyAccJerkMag.mean,
-- 44, fBodyBodyAccJerkMag.meanFreq,
-- 45, fBodyBodyGyroMag.mean,
-- 46, fBodyBodyGyroMag.meanFreq,
-- 47, fBodyBodyGyroJerkMag.mean,
-- 48, fBodyBodyGyroJerkMag.meanFreq,
-- 49, tBodyAcc.std X,
-- 50, tBodyAcc.std Y,
-- 51, tBodyAcc.std Z,
-- 52, tGravityAcc.std X,
-- 53, tGravityAcc.std Y,
-- 54, tGravityAcc.std Z,
-- 55, tBodyAccJerk.std X,
-- 56, tBodyAccJerk.std Y,
-- 57, tBodyAccJerk.std Z,
-- 58, tBodyGyro.std X,
-- 59, tBodyGyro.std Y,
-- 60, tBodyGyro.std Z,
-- 61, tBodyGyroJerk.std X,
-- 62, tBodyGyroJerk.std Y,
-- 63, tBodyGyroJerk.std Z,
-- 64, tBodyAccMag.std,
-- 65, tGravityAccMag.std,
-- 66, tBodyAccJerkMag.std,
-- 67, tBodyGyroMag.std,
-- 68, tBodyGyroJerkMag.std,
-- 69, fBodyAcc.std X,
-- 70, fBodyAcc.std Y,
-- 71, fBodyAcc.std Z,
-- 72, fBodyAccJerk.std X,
-- 73, fBodyAccJerk.std Y,
-- 74, fBodyAccJerk.std Z,
-- 75, fBodyGyro.std X,
-- 76, fBodyGyro.std Y,
-- 77, fBodyGyro.std Z,
-- 78, fBodyAccMag.std,
-- 79, fBodyBodyAccJerkMag.std,
-- 80, fBodyBodyGyroMag.std,
-- 81, fBodyBodyGyroJerkMag.std,
+- 32, fBodyAccJerk.meanFreq X,  Fourier transform of the time variable for the  mean body accelerometer frequency x axis
+- 33, fBodyAccJerk.meanFreq Y,  Fourier transform of the time variable for the  mean body accelerometer frequency y axis
+- 34, fBodyAccJerk.meanFreq Z,  Fourier transform of the time variable for the  mean body accelerometer frequency z axis
+- 35, fBodyGyro.mean X,         Fourier transform of the time variable for the  mean body gyroscope x axis
+- 36, fBodyGyro.mean Y,         Fourier transform of the time variable for the  mean body gyroscope y axis
+- 37, fBodyGyro.mean Z,         Fourier transform of the time variable for the  mean body gyroscope z axis
+- 38, fBodyGyro.meanFreq X,     Fourier transform of the time variable for the body gyroscope mean frequency x axis
+- 39, fBodyGyro.meanFreq Y,     Fourier transform of the time variable for the body gyroscope mean frequency y axis
+- 40, fBodyGyro.meanFreq Z,     Fourier transform of the time variable for the body gyroscope mean frequency z axis
+- 41, fBodyAccMag.mean,         Fourier transform of the time variable for the body accelerometer mean magnitude
+- 42, fBodyAccMag.meanFreq,     Fourier transform of the time variable for the body accelerometer mean frequency magnitude
+- 43, fBodyBodyAccJerkMag.mean, Fourier transform of the time variable for the body accelerometer mean jerk magnitude
+- 44, fBodyBodyAccJerkMag.meanFreq, Fourier transform of the time variable for the body accelerometer jerk magnitude mean frequency
+- 45, fBodyBodyGyroMag.mean, Fourier transform of the time variable for the body body gyroscope mean
+- 46, fBodyBodyGyroMag.meanFreq, Fourier transform of the time variable for the body body gyroscope mean frequency
+- 47, fBodyBodyGyroJerkMag.mean, Fourier transform of the time variable for the body body gyroscope jerk mean
+- 48, fBodyBodyGyroJerkMag.meanFreq, Fourier transform of the time variable for the body body gyroscope jerk mean frequency
+- 49, tBodyAcc.std X, Time variable of the body accelerometer standard deviation x axis
+- 50, tBodyAcc.std Y, Time variable of the body accelerometer standard deviation y axis
+- 51, tBodyAcc.std Z, Time variable of the body accelerometer standard deviation z axis
+- 52, tGravityAcc.std X, Time variable of the gravity accelerometer standard deviation x axis
+- 53, tGravityAcc.std Y, Time variable of the gravity accelerometer standard deviation y axis
+- 54, tGravityAcc.std Z, Time variable of the gravity accelerometer standard deviation z axis
+- 55, tBodyAccJerk.std X, Time variable of the body accelerometer jerk standard deviation x axis
+- 56, tBodyAccJerk.std Y, Time variable of the body accelerometer jerk standard deviation y axis
+- 57, tBodyAccJerk.std Z, Time variable of the body accelerometer jerk standard deviation z axis
+- 58, tBodyGyro.std X, Time variable of the body gyroscope standard deviation x axis
+- 59, tBodyGyro.std Y, Time variable of the body gyroscope standard deviation y axis
+- 60, tBodyGyro.std Z, Time variable of the body gyroscope standard deviation z axis
+- 61, tBodyGyroJerk.std X, Time variable of the body gyroscope jerk standard deviation x axis
+- 62, tBodyGyroJerk.std Y, Time variable of the body gyroscope jerk standard deviation y axis
+- 63, tBodyGyroJerk.std Z, Time variable of the body gyroscope jerk standard deviation z axis
+- 64, tBodyAccMag.std, Time variable of the body accelerometer standard deviation magnitude
+- 65, tGravityAccMag.std, Time variable of the body accelerometer magnitude standard deviation 
+- 66, tBodyAccJerkMag.std, Time variable of the body accelerometer jerk magnitude standard deviation
+- 67, tBodyGyroMag.std, Time variable of the body gyroscope magnitude standard deviation
+- 68, tBodyGyroJerkMag.std, Time variable of the body gyroscope jerk magnitude standard deviation
+- 69, fBodyAcc.std X, Fourier transform of the Time variable of the body accelerometer standard deviation x axis 
+- 70, fBodyAcc.std Y, Fourier transform of the Time variable of the body accelerometer standard deviation y axis
+- 71, fBodyAcc.std Z, Fourier transform of the Time variable of the body accelerometer standard deviation z axis
+- 72, fBodyAccJerk.std X, Fourier transform of the Time variable of the body accelerometer jerk standard deviation x axis
+- 73, fBodyAccJerk.std Y, Fourier transform of the Time variable of the body accelerometer jerk standard deviation y axis
+- 74, fBodyAccJerk.std Z, Fourier transform of the Time variable of the body accelerometer jerk standard deviation z axis
+- 75, fBodyGyro.std X, Fourier transform of the Time variable of the body gyroscope standard deviation x axis
+- 76, fBodyGyro.std Y, Fourier transform of the Time variable of the body gyroscope standard deviation y axis
+- 77, fBodyGyro.std Z, Fourier transform of the Time variable of the body gyroscope standard deviation z axis
+- 78, fBodyAccMag.std, Fourier transform of the Time variable of the body accelerometer jerk magnitude standard deviation
+- 79, fBodyBodyAccJerkMag.std, Fourier transform of the Time variable of the body body accelerometer standard deviation
+- 80, fBodyBodyGyroMag.std, Fourier transform of the Time variable of the body body gyroscope magnitude standard deviation 
+- 81, fBodyBodyGyroJerkMag.std, Fourier transform of the Time variable of the body body gyroscope jerk magnitude standard deviation
 
 
 
